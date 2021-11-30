@@ -1,0 +1,33 @@
+.navi {
+  display: flex;
+  height: 120px;
+  width: 100%;
+  background-color:#4056A1;
+  color: #FFFFFF;
+  font-family: 'Bungee', cursive;
+  align-items: center;
+  justify-content: space-between;
+  padding-left:1.5em;
+  padding-right: 1.5em;
+  position:fixed;
+  top:0;
+  z-index:100;
+
+  
+};
+
+#nav1 {
+width: 100px;
+height: 100px;
+}
+
+#nav2 {
+  display:flex;
+  justify-content: flex-end; 
+}
+
+.fa-angle-double-down {
+  display:flex;
+  justify-content: center;
+  color:#FF0000;
+}

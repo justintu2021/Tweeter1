@@ -1,0 +1,82 @@
+article {
+  margin-top: 3em;
+  margin-bottom: 2em;
+  border: solid gray;
+  padding: 0.5em;
+  transition: box-shadow .3s
+}
+
+article:hover {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 255, .2);; 
+}
+
+article tweet-header {
+ display: flex;
+ 
+}
+
+.group1 {
+  display:flex;
+  flex-direction: row;
+}
+
+.blur-name {
+  margin-left: auto;
+  color:rgb(223, 222, 222)
+}
+
+.picture {
+  margin: 7px
+}
+
+.nickname {
+  margin: 7px
+}
+
+article textarea {
+  border: 0px;
+  margin: 0px; 
+  width: 100%; 
+  height:50px;
+  background-color: #f4f1ec;
+  border-bottom: 2px solid black;
+}
+
+article tweet-footer {
+  display:flex
+
+}
+
+.icon{
+  margin-left: auto;
+  color: rgb(55, 55, 172);
+}
+
+
+
+#date {
+  font-size: 15px;
+}
+
+#pic1 {
+  margin: 3px
+}
+
+#pic2 {
+  margin: 3px
+}
+
+#pic3 {
+  margin: 3px
+}
+
+#pic1:hover {
+  color: goldenrod;
+  
+}
+#pic2:hover {
+  color: goldenrod
+}
+#pic3:hover {
+  color: goldenrod
+}
